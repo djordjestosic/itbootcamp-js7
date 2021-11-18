@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        h1 {
+            /*color: blue; !important;*/
+            color: blue;
+            color: orange;
+            text-decoration: line-through;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Tri vrste stilizovanja:
+        -Inline CSS
+        -Interni CSS
+        -Eksterni CSS
+    -->
+    <!-- 1. -->
+    <h1 style="color:red; text-decoration: line-through;">CSS</h1>
+
+    <!-- 2. -->
+    <h1>Interni CSS</h1>
+    <h1>Hello!</h1>
+
+    <!-- 3. -->
+    <h3 class="zutaPozadina">Eksterni CSS</h3>
+
+    <p id="prvi" class="zutaPozadina">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, harum.</p>
+    <p class="zutaPozadina">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+</body>
+</html>

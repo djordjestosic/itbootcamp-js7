@@ -1,0 +1,81 @@
+body{
+    background-image: url(/img/0.jpg);
+}
+h1{
+    text-align: center;
+    color: rgb(69, 252, 191);
+}
+
+#opis{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+h3{
+    text-align: center;
+    color: rgb(247, 0, 0);
+}
+.lista1{
+    text-align: center;
+    color: rgb(247, 0, 0);
+    list-style-type: none;
+    font-size: 20px;
+    
+    
+}
+#Pinteresovanja{
+    text-align: center;
+    color: rgb(247, 0, 0);
+    font-size: 20px;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    color: blanchedalmond;
+  }
+  .itboot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 450px;
+    height: 200px;
+      
+  }
+
+  #pomocna{
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+
+  /*ODAVDE KRECE CSS ZA POMOCNA HTML*/
+
+  #header2{
+    color: rgb(255, 255, 255);
+  }
+
+
+  /*ODAVDE POCINJE CSS ZA FOOTER*/
+
+  .far{
+      color: red;
+      font-size: 60px;
+  }
+
+  .fab{
+      color: red;
+      font-size: 60px;
+  }
+
+  footer{
+      text-align: center;
+  }
